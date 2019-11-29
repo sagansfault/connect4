@@ -1,0 +1,9 @@
+name: Connect4
+description: A connect 4 game plugin
+author: sagan
+version: 1.0-SNAPSHOT
+main: me.cam.connect4.Connect4
+
+commands:
+  conn4:
+    usage: /conn4
