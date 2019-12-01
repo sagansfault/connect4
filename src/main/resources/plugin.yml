@@ -3,6 +3,7 @@ description: A connect 4 game plugin
 author: sagan
 version: 1.0-SNAPSHOT
 main: me.cam.connect4.Connect4
+api-version: 1.13
 
 commands:
   conn4:

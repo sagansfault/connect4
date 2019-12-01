@@ -15,7 +15,7 @@ public class Connect4 extends JavaPlugin {
         instance = this;
 
         getCommand("conn4").setExecutor(new Commands());
-        Bukkit.getPluginManager().registerEvents(new GameEvent(), this);
+        Bukkit.getPluginManager().registerEvents(new GameLogic(), this);
     }
 
     @Override
